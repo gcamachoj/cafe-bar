@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #f2f2f2;
+}
+
+/* Header */
+.header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+/* Navbar */
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background: #333;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background: #4CAF50;
+}
+
+/* Sections */
+.section {
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    margin: 10px 0;
+}
+
+.section h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Cards for Services */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #e7f3e7;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
